@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Flask running on GKE using Helm + Argo CD!"
+    return "Version 2 deployed from GitHub Feature Branch!"
 
 @app.route("/health")
 def health():
